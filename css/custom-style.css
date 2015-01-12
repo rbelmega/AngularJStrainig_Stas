@@ -1,4 +1,4 @@
-.imageItem {
+.image-item {
 	float: right;
 	margin-top: 10px;
 }
@@ -42,13 +42,11 @@ a:hover {
 }
 
 .information-div {
-	border: solid;
-	border-width: 1px;
+	border: solid 1px;
 	margin: 2px;
 	padding: 3px;
 }
 
 .footer-span {
-	margin-left: 50%;
-	margin-right: 50%;
+	margin: 0 50%;
 }
