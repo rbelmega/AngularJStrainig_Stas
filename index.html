@@ -14,7 +14,9 @@
 
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
-			<div class="imageItem"><a><img class="helpImage" src="images/Help.png"></a></div>
+			<div class="image-item">
+				<span class="glyphicon glyphicon-question-sign"></span>
+			</div>
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
 						data-target="#bs-example-navbar-collapse-1">
@@ -38,33 +40,39 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5 information-div">
-				<img src="http://www.taste.com.au/images/recipes/sfi/2012/02/28770_l.jpg" class="div-image">
-				<p class="potato-description">
-					The potato is a starchy, tuberous crop from the
-					perennial nightshade Solanum
-					tuberosum L. The word "potato" may refer either to the plant itself or the edible tuber.
-					In the Andes, where the species is indigenous, there are some other closely related cultivated potato species.</p>
+			<div class="col-md-5">
+				<div class="information-div">
+					<img src="http://www.taste.com.au/images/recipes/sfi/2012/02/28770_l.jpg" class="div-image">
+					<p class="potato-description">
+						The potato is a starchy, tuberous crop from the
+						perennial nightshade Solanum
+						tuberosum L. The word "potato" may refer either to the plant itself or the edible tuber.
+						In the Andes, where the species is indigenous, there are some other closely related cultivated potato species.</p>
+				</div>
 			</div>
-			<div class="col-md-4 information-div">
-				<img src="https://s3.amazonaws.com/peerfit.wpcontent/2013/07/Red-Meat.jpg" class="div-image">
-				<p>
-					Meat is animal flesh that is eaten as food.
-					Humans are omnivorous,and have hunted and killed animals for meat since prehistoric times.
-					The advent of civilization allowed the domestication of animals such as chickens, sheep, fish, seafood, pigs and cattle, and eventually their use in meat production on an industrial scale.
-				</p>
+			<div class="col-md-5">
+				<div class="information-div">
+					<img src="https://s3.amazonaws.com/peerfit.wpcontent/2013/07/Red-Meat.jpg" class="div-image">
+					<p>
+						Meat is animal flesh that is eaten as food.
+						Humans are omnivorous,and have hunted and killed animals for meat since prehistoric times.
+						The advent of civilization allowed the domestication of animals such as chickens, sheep, fish, seafood, pigs and cattle, and eventually their use in meat production on an industrial scale.
+					</p>
+				</div>
 			</div>
-			<div class="col-md-2 information-div">
-				<p>
-					Food is any substance consumed to provide nutritional support for the body.
-					It is usually of plant or animal origin, and contains essential nutrients, such as fats, proteins, vitamins, or minerals.
-				</p>
+			<div class="col-md-2">
+				<div class="information-div">
+					<p>
+						Food is any substance consumed to provide nutritional support for the body.
+						It is usually of plant or animal origin, and contains essential nutrients, such as fats, proteins, vitamins, or minerals.
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
 
 
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -104,8 +112,8 @@
 	</div>
 
 
-	<div class="navbar-fixed-bottom">
-		<span>Contact us</span>
+	<div class="navbar-default navbar-fixed-bottom">
+		<span class="footer-span">Contact us </span>
 	</div>
 
 	<script src="js/jquery-1.11.2.js"></script>
