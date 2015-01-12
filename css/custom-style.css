@@ -1,16 +1,16 @@
 .image-item {
 	float: right;
-	margin-top: 10px;
-}
-
-#carousel-example-generic {
-	width: 60%;
-	margin: auto;
+	line-height: 50px;
 }
 
 .div-image {
 	width: 80px;
 	height: 80px;
+}
+
+.left-image {
+	float: left;
+	margin: 2px;
 }
 
 .header-div {
@@ -47,6 +47,10 @@ a:hover {
 	padding: 3px;
 }
 
-.footer-span {
-	margin: 0 50%;
+.footer-div {
+	text-align: center;
+}
+
+#carousel-example-generic {
+	padding: 0px;
 }
